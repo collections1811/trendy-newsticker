@@ -53,6 +53,7 @@ function recent_post_style(){
     s += "margin:0px;";
     s += "width:auto;";
     s += "background:#fff;";
+    s += "}";
     s += "</style>";
     document.write(s);
 }
@@ -62,6 +63,7 @@ function recent_post_content(){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
     s += "أخر المواضيع";
+    s += "</div>";
     }
     s += "  <marquee style='float:left; margin-left:10px; width:82%' scrollAmount='"+scrolling_speed+"'>";
     for(var i=0; i<latest_post; i++){
